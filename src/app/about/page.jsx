@@ -63,7 +63,7 @@ const page = () => {
 </div>
       
       <div className="container my-5 ">
-         <h5 className='text-center'>Shaikmuzeef9999@gmail.com</h5>
+         <h5 className='text-center'>hello@syntaxarts.com </h5>
          <h2 className='text-center' style={{color:"blue",fontWeight:"700"}}>Lets Talk About The Project</h2>
          <p className='text-center'>Expertise in web design and development, combined with a proven track record of successful projects, make our digital agency the ideal choice for creating a professional and impactful website.</p>
 

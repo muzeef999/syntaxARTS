@@ -13,6 +13,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+            <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-9753K5TW0E"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-9753K5TW0E', {
+            page_path: window.location.pathname,
+          });
+        `}
+      </Script>
       <body className={inter.className}>
         <Navbar />
         {children}

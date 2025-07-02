@@ -150,7 +150,7 @@ export const Footer = () => {
               <IoCall /> +91 9959456647
             </p>
             <p>
-              <IoMdMail /> Shaikmuzeef9999@gmail.com
+              <IoMdMail /> hello@syntaxarts.com 
             </p>
           </div>
         </div>
