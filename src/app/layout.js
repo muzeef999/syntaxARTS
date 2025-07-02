@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./Navbar";
 import style from "./style/responsive.css"
 import { Footer } from "./Footer";
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
